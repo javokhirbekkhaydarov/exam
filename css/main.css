@@ -1,0 +1,391 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+.container-fluid {
+  width: 1340px; }
+  .container-fluid #sector {
+    transform: translateY(15px); }
+  .container-fluid .navbar {
+    opacity: 60%;
+    border-bottom: 3px solid #3636ff;
+    background-color: black;
+    color: #fff; }
+    .container-fluid .navbar .navbar-brand {
+      color: #909090;
+      margin: 0 auto;
+      transform: translateX(5rem); }
+      .container-fluid .navbar .navbar-brand:hover {
+        color: #fff; }
+    .container-fluid .navbar .collapse .navbar-nav {
+      margin: 0 auto;
+      transform: translateX(15rem); }
+      .container-fluid .navbar .collapse .navbar-nav .nav-item .nav-link {
+        color: #909090; }
+        .container-fluid .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+          color: #fff; }
+  .container-fluid .image img {
+    filter: brightness(30%);
+    margin-left: -1.7rem;
+    width: 1360px; }
+  .container-fluid .row .col-12 {
+    transform: translateY(-13px); }
+  .container-fluid .col-7 {
+    display: inline;
+    display: inline-block;
+    flex-wrap: nowrap; }
+    .container-fluid .col-7 label {
+      transform: translateX(2.5rem);
+      margin-right: 3rem;
+      transform: translateY(-3.5rem); }
+      .container-fluid .col-7 label input {
+        transform: scale(3.3);
+        margin-right: 3rem; }
+  .container-fluid .col-3 input {
+    width: 250px;
+    align-items: center;
+    transform: translateX(1.5rem); }
+  .container-fluid .col-3 .btn {
+    border: 1px solid #fff;
+    transform: translateY(-6px);
+    width: 250px;
+    align-items: center;
+    transform: translate(1.5rem, -10px); }
+  .container-fluid .btn {
+    border: 1px solid #fff;
+    transition: all 0.2s linear;
+    color: #fff; }
+    .container-fluid .btn:hover {
+      background-color: #ffffff;
+      color: #333; }
+  .container-fluid .carousel-indicators li {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%; }
+  .container-fluid .container-fluid .carausel-slide .carousel-inner .carausel-item .picture {
+    width: inherit; }
+
+@media (min-width: 0px) and (max-width: 474.9px) {
+  .container-fluid {
+    width: 100%; }
+    .container-fluid .navbar {
+      width: 90%;
+      margin: 0; }
+      .container-fluid .navbar .navbar-brand {
+        margin: 0; }
+    .container-fluid .row {
+      width: 300px;
+      flex-direction: column; }
+      .container-fluid .row .col-7 {
+        width: 250px; }
+        .container-fluid .row .col-7 .display-4 {
+          font-size: 15px; }
+        .container-fluid .row .col-7 label {
+          font-size: 10px;
+          margin: 0;
+          padding: 0;
+          color: #111; }
+        .container-fluid .row .col-7 input {
+          transform: scale(1.6);
+          color: #111; }
+      .container-fluid .row .col-3 {
+        width: 100%;
+        justify-content: center;
+        align-items: center; }
+        .container-fluid .row .col-3 .card {
+          width: 250px; }
+          .container-fluid .row .col-3 .card h2 {
+            font-size: 15px; }
+          .container-fluid .row .col-3 .card p {
+            font-size: 10px; }
+        .container-fluid .row .col-3 input {
+          width: 80%;
+          font-size: 10px;
+          margin: 0; }
+        .container-fluid .row .col-3 .btn {
+          width: 80%;
+          font-size: 10px; }
+    .container-fluid .image {
+      width: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center; }
+      .container-fluid .image .family {
+        width: 100%;
+        margin: 0; }
+    .container-fluid .row {
+      margin: 0;
+      padding: 0;
+      width: 240px;
+      transform: translateY(6rem);
+      height: 30%;
+      margin: 1rem; }
+      .container-fluid .row .col-8 {
+        width: 100%; }
+        .container-fluid .row .col-8 h4 {
+          font-size: 16px; }
+        .container-fluid .row .col-8 h2 {
+          font-size: 26px; }
+        .container-fluid .row .col-8 .display-4 {
+          margin: 0;
+          padding: 0;
+          font-size: 16px;
+          width: 70%; }
+        .container-fluid .row .col-8 p {
+          width: 100%;
+          font-size: 10px; }
+        .container-fluid .row .col-8 button {
+          font-size: 5px; }
+    .container-fluid .carousel {
+      width: 100%;
+      margin-top: 55rem;
+      transform: translateY(6rem); }
+      .container-fluid .carousel .carousel-inner .picture {
+        width: 90%;
+        margin: 2rem 0 1rem 0; }
+      .container-fluid .carousel .carousel-inner .carousel-item {
+        width: 100%; } }
+@media (min-width: 475px) and (max-width: 774.9px) {
+  .container-fluid {
+    width: 100%; }
+    .container-fluid .navbar {
+      width: 90%;
+      margin: 0; }
+      .container-fluid .navbar .navbar-brand {
+        margin: 0; }
+    .container-fluid .row {
+      width: 50%;
+      flex-direction: column; }
+      .container-fluid .row .col-7 {
+        width: 50%; }
+        .container-fluid .row .col-7 .display-4 {
+          font-size: 18px; }
+        .container-fluid .row .col-7 label {
+          font-size: 13px;
+          margin: 0;
+          padding: 0;
+          color: #111; }
+        .container-fluid .row .col-7 input {
+          transform: scale(1.6);
+          color: #111; }
+      .container-fluid .row .col-3 {
+        width: 100%;
+        justify-content: center;
+        align-items: center; }
+        .container-fluid .row .col-3 .card {
+          width: 100%; }
+          .container-fluid .row .col-3 .card h2 {
+            font-size: 22px; }
+          .container-fluid .row .col-3 .card p {
+            font-size: 16px; }
+          .container-fluid .row .col-3 .card input {
+            width: 45%;
+            font-size: 13px;
+            margin: 0; }
+          .container-fluid .row .col-3 .card .btn {
+            width: 80%;
+            font-size: 13px; }
+    .container-fluid .image {
+      width: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center; }
+      .container-fluid .image .family {
+        width: 100%;
+        margin: 0; }
+    .container-fluid .row {
+      margin: 0;
+      padding: 0;
+      width: 240px;
+      transform: translateY(6rem);
+      height: 30%;
+      margin: 1rem; }
+      .container-fluid .row .col-8 {
+        width: 100%; }
+        .container-fluid .row .col-8 h4 {
+          font-size: 19px; }
+        .container-fluid .row .col-8 h2 {
+          font-size: 29px; }
+        .container-fluid .row .col-8 .display-4 {
+          margin: 0;
+          padding: 0;
+          font-size: 19px;
+          width: 70%; }
+        .container-fluid .row .col-8 p {
+          width: 100%;
+          font-size: 13px; }
+        .container-fluid .row .col-8 button {
+          font-size: 8px; }
+    .container-fluid .carousel {
+      width: 100%;
+      margin-top: 55rem;
+      transform: translateY(6rem); }
+      .container-fluid .carousel .carousel-inner .picture {
+        width: 90%;
+        margin: 2rem 0 1rem 0; }
+      .container-fluid .carousel .carousel-inner .carousel-item {
+        width: 100%; } }
+@media (min-width: 775px) and (max-width: 979.9px) {
+  .container-fluid {
+    width: 100%; }
+    .container-fluid .navbar {
+      width: 90%;
+      margin: 0; }
+      .container-fluid .navbar .navbar-brand {
+        margin: 0; }
+    .container-fluid .row {
+      width: 50%;
+      flex-direction: column; }
+      .container-fluid .row .col-7 {
+        width: 50%; }
+        .container-fluid .row .col-7 .display-4 {
+          font-size: 33px; }
+        .container-fluid .row .col-7 label {
+          font-size: 16px;
+          margin: 0;
+          padding: 0;
+          color: #111; }
+        .container-fluid .row .col-7 input {
+          transform: scale(1.6);
+          color: #111; }
+      .container-fluid .row .col-3 {
+        width: 75%;
+        justify-content: center;
+        align-items: center; }
+        .container-fluid .row .col-3 .card {
+          width: 100%; }
+          .container-fluid .row .col-3 .card h2 {
+            font-size: 21px; }
+          .container-fluid .row .col-3 .card p {
+            font-size: 16px; }
+        .container-fluid .row .col-3 input {
+          width: 30%;
+          font-size: 16px;
+          margin: 0; }
+        .container-fluid .row .col-3 .btn {
+          width: 80%;
+          font-size: 16px; }
+    .container-fluid .image {
+      width: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center; }
+      .container-fluid .image .family {
+        width: 100%;
+        margin: 0; }
+    .container-fluid .row {
+      margin: 0;
+      padding: 0;
+      width: 50%;
+      transform: translateY(6rem);
+      height: 30%;
+      margin: 1rem; }
+      .container-fluid .row .col-8 {
+        width: 100%; }
+        .container-fluid .row .col-8 h4 {
+          font-size: 22px; }
+        .container-fluid .row .col-8 h2 {
+          font-size: 32px; }
+        .container-fluid .row .col-8 .display-4 {
+          margin: 0;
+          padding: 0;
+          font-size: 22px;
+          width: 70%; }
+        .container-fluid .row .col-8 p {
+          width: 100%;
+          font-size: 16px; }
+        .container-fluid .row .col-8 button {
+          font-size: 12px; }
+    .container-fluid .carousel {
+      width: 100%;
+      margin-top: 55rem;
+      transform: translateY(6rem); }
+      .container-fluid .carousel .carousel-inner .picture {
+        width: 90%;
+        margin: 2rem 0 1rem 0; }
+      .container-fluid .carousel .carousel-inner .carousel-item {
+        width: 100%; } }
+@media (min-width: 775px) and (max-width: 979.9px) {
+  .container-fluid {
+    width: 100%; }
+    .container-fluid .navbar {
+      width: 90%;
+      margin: 0; }
+      .container-fluid .navbar .navbar-brand {
+        margin: 0; }
+    .container-fluid .row {
+      width: 50%;
+      flex-direction: column; }
+      .container-fluid .row .col-7 {
+        width: 50%; }
+        .container-fluid .row .col-7 .display-4 {
+          font-size: 44px; }
+        .container-fluid .row .col-7 label {
+          font-size: 18px;
+          margin: 0;
+          padding: 0;
+          color: #111; }
+        .container-fluid .row .col-7 input {
+          transform: scale(1.6);
+          color: #111; }
+      .container-fluid .row .col-3 {
+        width: 75%;
+        justify-content: center;
+        align-items: center; }
+        .container-fluid .row .col-3 .card {
+          width: 100%; }
+          .container-fluid .row .col-3 .card h2 {
+            font-size: 21px; }
+          .container-fluid .row .col-3 .card p {
+            font-size: 16px; }
+        .container-fluid .row .col-3 input {
+          width: 30%;
+          font-size: 16px;
+          margin: 0; }
+        .container-fluid .row .col-3 .btn {
+          width: 80%;
+          font-size: 16px; }
+    .container-fluid .image {
+      width: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center; }
+      .container-fluid .image .family {
+        width: 100%;
+        margin: 0; }
+    .container-fluid .row {
+      margin: 0;
+      padding: 0;
+      width: 50%;
+      transform: translateY(6rem);
+      height: 30%;
+      margin: 1rem; }
+      .container-fluid .row .col-8 {
+        width: 100%; }
+        .container-fluid .row .col-8 h4 {
+          font-size: 26px; }
+        .container-fluid .row .col-8 h2 {
+          font-size: 33px; }
+        .container-fluid .row .col-8 .display-4 {
+          margin: 0;
+          padding: 0;
+          font-size: 44px;
+          width: 70%; }
+        .container-fluid .row .col-8 p {
+          width: 100%;
+          font-size: 16px; }
+        .container-fluid .row .col-8 button {
+          font-size: 16px; }
+    .container-fluid .carousel {
+      width: 100%;
+      margin-top: 55rem;
+      transform: translateY(6rem); }
+      .container-fluid .carousel .carousel-inner .picture {
+        width: 90%;
+        margin: 2rem 0 1rem 0; }
+      .container-fluid .carousel .carousel-inner .carousel-item {
+        width: 100%; } }
+
+/*# sourceMappingURL=main.css.map */

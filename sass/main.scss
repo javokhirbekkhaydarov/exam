@@ -1,0 +1,650 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+}
+.container-fluid{
+    width: 1340px;
+   #sector{
+       transform: translateY(15px);
+       
+   }
+    .navbar{
+       opacity: (60%);
+        border-bottom:3px solid rgb(54, 54, 255) ;
+        background-color: black;
+        color: #fff;
+       
+        .navbar-brand{
+            color: #909090;
+            margin: 0 auto;
+            transform: translateX(5rem);
+            &:hover{
+                color: #fff; 
+            }
+        }
+        .collapse {
+            .navbar-nav{
+                margin: 0 auto;
+                transform: translateX(15rem);
+                .nav-item{
+                    .nav-link{
+                        color: #909090;
+
+                        
+                        &:hover{
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+        
+           .image{
+               img{
+             filter: brightness(30%);
+             margin-left: -1.7rem;
+             width: 1360px;
+         
+            }
+           
+           }
+
+        .row{
+            .col-12{
+                transform: translateY(-13px);
+            }
+        }
+        .col-7{
+            display: inline;
+            display: inline-block;
+            flex-wrap: nowrap;
+            
+           label {
+               transform: translateX(2.5rem);
+               margin-right: 3rem;
+               transform: translateY(-3.5rem);
+               input{
+                   transform: scale(3.3);
+                   margin-right: 3rem;
+                   
+               }
+
+            }
+            
+        }
+        .col-3{
+            input{
+                width: 250px;
+                align-items: center;
+                transform: translateX(1.5rem);
+            }
+            .btn{
+                border: 1px solid #fff;
+                transform: translateY(-6px);
+                width: 250px;
+                align-items: center;
+                transform: translate(1.5rem , -10px);
+            }
+
+
+            
+        }
+        .btn{
+           border: 1px solid #fff; 
+           transition: all 0.2s linear;
+           color: #fff;
+           &:hover{
+               background-color: #ffffff;
+               color: #333;
+           }
+        }
+       
+          .carousel-indicators{
+              li {
+                  height: 10px;
+                  width:10px;
+                  border-radius: 50%;
+              }
+          }
+          .container-fluid {
+            
+            .carausel-slide{
+                .carousel-inner{
+                    .carausel-item{
+                        .picture{
+                           width: inherit;
+                        }
+                    }
+                }
+           
+            }
+         
+        
+                
+             
+         
+       }
+      
+        }
+@media(min-width:0px) and (max-width:474.9px){
+    .container-fluid{
+        width: 100%;
+        
+        .navbar{
+            width: 90%;
+            margin: 0;
+            .navbar-brand{
+                margin: 0;
+            }
+        }
+
+        .row{
+            width: 300px;
+            flex-direction: column;
+            
+
+            .col-7{
+                width: 250px;
+                .display-4{
+                    font-size: 15px;
+                }
+                label{
+                    font-size:10px;
+                    margin: 0;
+                    padding: 0;
+                    color: #111;
+                }
+                input{
+                    transform: scale(1.6);
+                    color: #111;
+                }
+            }
+            .col-3{
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+
+              .card{
+                width: 250px;
+                h2{
+                    font-size: 15px;
+                    
+                }
+                p{
+                    font-size: 10px;
+                    
+                }
+              }
+              input{
+                  width: 80%;
+                  font-size: 10px;
+                  margin: 0;
+              }
+              .btn{
+                width: 80%;
+                font-size: 10px;
+            }
+            }
+        }
+        .image {
+            width: 100%;
+            margin: 0;
+            
+            display: flex;
+            justify-content: center;
+            .family{
+               width: 100%;
+               margin: 0;
+
+            }
+        }
+
+
+       .row{
+        margin: 0;
+        padding: 0;
+        width: 240px;
+        transform: translateY(6rem);
+        height: 30%;
+        margin: 1rem;
+
+        .col-8{
+            width: 100%;
+            h4{
+                font-size: 16px;  
+            }
+              h2{
+                font-size: 26px;
+              }
+              
+               .display-4{
+                   margin: 0;
+                   padding: 0;
+                   font-size: 16px;
+                   width: 70%;
+
+                } 
+                p{
+                 width: 100%;
+                    font-size: 10px;
+                   
+                }
+                button{
+                   font-size: 5px;
+                }
+           }
+       }
+
+     
+    .carousel{
+           width: 100%;
+           margin-top: 55rem;
+           transform: translateY(6rem);
+           .carousel-inner{
+            .picture{
+                width: 90%;
+                margin:2rem 0 1rem 0;
+            }
+               .carousel-item{
+                width: 100%;
+               }
+           }
+       }
+
+    }
+
+
+}
+@media(min-width:475px) and (max-width:774.9px){
+    .container-fluid{
+        width: 100%;
+        
+        .navbar{
+            width: 90%;
+            margin: 0;
+            .navbar-brand{
+                margin: 0;
+            }
+        }
+
+        .row{
+            width: 50%;
+            flex-direction: column;
+            
+
+            .col-7{
+                width: 50%;
+                .display-4{
+                    font-size: 18px;
+                }
+                label{
+                    font-size:13px;
+                    margin: 0;
+                    padding: 0;
+                    color: #111;
+                }
+                input{
+                    transform: scale(1.6);
+                    color: #111;
+                }
+            }
+            .col-3{
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+
+              .card{
+                width: 100%;
+                h2{
+                    font-size: 22px;
+                    
+                }
+                p{
+                    font-size: 16px;
+                    
+                }
+              
+              input{
+                  width: 45%;
+                  font-size: 13px;
+                  margin: 0;
+              }
+              .btn{
+                width: 80%;
+                font-size: 13px;
+            }
+            }
+        }
+        }
+        .image {
+            width: 100%;
+            margin: 0;
+            
+            display: flex;
+            justify-content: center;
+            .family{
+               width: 100%;
+               margin: 0;
+
+            }
+        }
+
+
+       .row{
+        margin: 0;
+        padding: 0;
+        width: 240px;
+        transform: translateY(6rem);
+        height: 30%;
+        margin: 1rem;
+
+        .col-8{
+            width: 100%;
+            h4{
+                font-size: 19px;  
+            }
+              h2{
+                font-size: 29px;
+              }
+              
+               .display-4{
+                   margin: 0;
+                   padding: 0;
+                   font-size: 19px;
+                   width: 70%;
+
+                } 
+                p{
+                 width: 100%;
+                    font-size: 13px;
+                   
+                }
+                button{
+                   font-size: 8px;
+                }
+           }
+       }
+
+     
+    .carousel{
+           width: 100%;
+           margin-top: 55rem;
+           transform: translateY(6rem);
+           .carousel-inner{
+            .picture{
+                width: 90%;
+                margin:2rem 0 1rem 0;
+            }
+               .carousel-item{
+                width: 100%;
+               }
+           }
+       }
+
+    }
+
+
+}
+@media(min-width:775px) and (max-width:979.9px){
+    .container-fluid{
+        width: 100%;
+        
+        .navbar{
+            width: 90%;
+            margin: 0;
+            .navbar-brand{
+                margin: 0;
+            }
+        }
+
+        .row{
+            width: 50%;
+            flex-direction: column;
+            
+
+            .col-7{
+                width: 50%;
+                .display-4{
+                    font-size: 33px;
+                }
+                label{
+                    font-size:16px;
+                    margin: 0;
+                    padding: 0;
+                    color: #111;
+                }
+                input{
+                    transform: scale(1.6);
+                    color: #111;
+                }
+            }
+            .col-3{
+                width: 75%;
+                justify-content: center;
+                align-items: center;
+
+              .card{
+                width: 100%;
+                h2{
+                    font-size: 21px;
+                    
+                }
+                p{
+                    font-size: 16px;
+                    
+                }
+              }
+              input{
+                  width: 30%;
+                  font-size: 16px;
+                  margin: 0;
+              }
+              .btn{
+                width: 80%;
+                font-size: 16px;
+            }
+            }
+        }
+        .image {
+            width: 100%;
+            margin: 0;
+            
+            display: flex;
+            justify-content: center;
+            .family{
+               width: 100%;
+               margin: 0;
+
+            }
+        }
+
+
+       .row{
+        margin: 0;
+        padding: 0;
+        width: 50%;
+        transform: translateY(6rem);
+        height: 30%;
+        margin: 1rem;
+
+        .col-8{
+            width: 100%;
+            h4{
+                font-size: 22px;  
+            }
+              h2{
+                font-size:32px;
+              }
+              
+               .display-4{
+                   margin: 0;
+                   padding: 0;
+                   font-size: 22px;
+                   width: 70%;
+
+                } 
+                p{
+                 width: 100%;
+                    font-size: 16px;
+                   
+                }
+                button{
+                   font-size: 12px;
+                }
+           }
+       }
+
+     
+    .carousel{
+           width: 100%;
+           margin-top: 55rem;
+           transform: translateY(6rem);
+           .carousel-inner{
+            .picture{
+                width: 90%;
+                margin:2rem 0 1rem 0;
+            }
+               .carousel-item{
+                width: 100%;
+               }
+           }
+       }
+
+    }
+
+
+}
+@media(min-width:775px) and (max-width:979.9px){
+    .container-fluid{
+        width: 100%;
+        
+        .navbar{
+            width: 90%;
+            margin: 0;
+            .navbar-brand{
+                margin: 0;
+            }
+        }
+
+        .row{
+            width: 50%;
+            flex-direction: column;
+            
+
+            .col-7{
+                width: 50%;
+                .display-4{
+                    font-size: 44px;
+                }
+                label{
+                    font-size:18px;
+                    margin: 0;
+                    padding: 0;
+                    color: #111;
+                }
+                input{
+                    transform: scale(1.6);
+                    color: #111;
+                }
+            }
+            .col-3{
+                width: 75%;
+                justify-content: center;
+                align-items: center;
+
+              .card{
+                width: 100%;
+                h2{
+                    font-size: 21px;
+                    
+                }
+                p{
+                    font-size: 16px;
+                    
+                }
+              }
+              input{
+                  width: 30%;
+                  font-size: 16px;
+                  margin: 0;
+              }
+              .btn{
+                width: 80%;
+                font-size: 16px;
+            }
+            }
+        }
+        .image {
+            width: 100%;
+            margin: 0;
+            
+            display: flex;
+            justify-content: center;
+            .family{
+               width: 100%;
+               margin: 0;
+
+            }
+        }
+
+
+       .row{
+        margin: 0;
+        padding: 0;
+        width: 50%;
+        transform: translateY(6rem);
+        height: 30%;
+        margin: 1rem;
+
+        .col-8{
+            width: 100%;
+            h4{
+                font-size: 26px;  
+            }
+              h2{
+                font-size:33px;
+              }
+              
+               .display-4{
+                   margin: 0;
+                   padding: 0;
+                   font-size: 44px;
+                   width: 70%;
+
+                } 
+                p{
+                 width: 100%;
+                    font-size: 16px;
+                   
+                }
+                button{
+                   font-size: 16px;
+                }
+           }
+       }
+
+     
+    .carousel{
+           width: 100%;
+           margin-top: 55rem;
+           transform: translateY(6rem);
+           .carousel-inner{
+            .picture{
+                width: 90%;
+                margin:2rem 0 1rem 0;
+            }
+               .carousel-item{
+                width: 100%;
+               }
+           }
+       }
+
+    }
+
+
+}
+    
+    

@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+.container-fluid {
+  width: 1340px; }
+  .container-fluid #sector {
+    transform: translateY(15px); }
+  .container-fluid .navbar {
+    opacity: 60%;
+    border-bottom: 3px solid #3636ff;
+    background-color: black;
+    color: #fff; }
+    .container-fluid .navbar .navbar-brand {
+      color: #909090;
+      margin: 0 auto;
+      transform: translateX(5rem); }
+      .container-fluid .navbar .navbar-brand:hover {
+        color: #fff; }
+    .container-fluid .navbar .collapse .navbar-nav {
+      margin: 0 auto;
+      transform: translateX(15rem); }
+      .container-fluid .navbar .collapse .navbar-nav .nav-item .nav-link {
+        color: #909090; }
+        .container-fluid .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+          color: #fff; }
+  .container-fluid .image img {
+    filter: brightness(30%);
+    margin-left: -1.7rem;
+    width: 1360px; }
+  .container-fluid .row .col-12 {
+    transform: translateY(-13px); }
+  .container-fluid .col-7 {
+    display: inline;
+    display: inline-block;
+    flex-wrap: nowrap; }
+    .container-fluid .col-7 label {
+      transform: translateX(2.5rem);
+      margin-right: 3rem;
+      transform: translateY(-3.5rem); }
+      .container-fluid .col-7 label input {
+        transform: scale(3.3);
+        margin-right: 3rem; }
+  .container-fluid .col-3 input {
+    width: 250px;
+    align-items: center;
+    transform: translateX(1.5rem); }
+  .container-fluid .col-3 .btn {
+    border: 1px solid #fff;
+    transform: translateY(-6px);
+    width: 250px;
+    align-items: center;
+    transform: translate(1.5rem, -10px); }
+  .container-fluid .btn {
+    border: 1px solid #fff;
+    transition: all 0.2s linear;
+    color: #fff; }
+    .container-fluid .btn:hover {
+      background-color: #ffffff;
+      color: #333; }
+  .container-fluid .carousel-indicators li {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%; }
+  .container-fluid .container-fluid .carausel-slide .carousel-inner .carausel-item .picture {
+    width: inherit; }
+
+/*# sourceMappingURL=main.scss.map */
